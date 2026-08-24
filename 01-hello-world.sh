@@ -1,7 +1,5 @@
 #!/bin/bash
+ 
+ echo "iam learning devops"
 
-#this is the comment, this will not be excuted by bash, this is only for information purpose.  
-
-echo "hello world"
-
-echo "iam learning git and devops"
+echo "i want azure" 
