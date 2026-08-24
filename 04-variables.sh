@@ -7,4 +7,5 @@ echo "$PERSON1:: hello $PERSON2, hoe are you?"
 echo "$PERSON2:: hai $PERSON1, iam fine thanks for asking.how are you doing."
 echo "$PERSON1:: doing fine.what are you learning $PERSON2?."
 echo "$PERSON2:: iam learning shell.what about you?"
-echo
+echo "$PERSON1:: iam also learning shell and ansible too."
+echo "$PERSON2:: which tool do you use in current project.?"
