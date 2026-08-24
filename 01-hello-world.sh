@@ -1,5 +1,6 @@
 #!/bin/bash
  
- echo "iam learning devops"
-
-echo "i want azure" 
+echo "suresh : hai ramesh"
+echo "ramesh : hai suresh"
+echo "suresh : how are you?"
+echo "ramesh : fine and you?"
