@@ -2,4 +2,4 @@
 
 ###array 
 FRUITS=("banana" "mango" "pomo")
-echo " fruits are : $FRUITS{@}" 
+echo " fruits are : ${FRUITS[@]}" 
