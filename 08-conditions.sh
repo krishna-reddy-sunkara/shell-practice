@@ -1,4 +1,4 @@
 #!/bin/bash
 
-if [ $NUMBER > 20]; then
-echo " print number : $NUMBER is > 20 "
+if [ $NUMBER -gt 20]; then
+echo " print number : $NUMBER is greater then 20 "
