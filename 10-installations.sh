@@ -3,13 +3,13 @@ USERID=$(id -u)
 
  if [ $USERID -ne 0 ]; then
  echo " install nginx  with sudo access "
- exit
+ 
   fi 
 
 
   echo " install nginx "
 
-  dnf install nginxujhfb -y
+  dnf install nginx -y
 
 if [ $? -ne 0 ]; then
   
