@@ -1,4 +1,3 @@
 #!/bin/bash
  FROUITS = "banana" "mongo" "pomo"
- echo " frouits are : $@ "
- 
+ echo " frouits are : $FROUITS "
