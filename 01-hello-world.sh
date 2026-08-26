@@ -1,10 +1,10 @@
 #!/bin/bash
- TIMESTAMP=$(date)
- echo " the script excuted : $TIMESTAMP "
-
- START_TIME=$(date +%s)
- echo " the script excuted : $START_TIME "
- END_TIME=$(date +%s)
- echo " the script excuted : $END_TIME "
-  TOTAL_TIME=$((START_TIME + END_TIME))
-  echo " script is excuted : $TOTAL_TIME "
+ echo " all args pass to the script : $@ "
+ echo " present working directory : $PWD "
+ echo " no.of vars passed to the script : $# "
+ echo " script name : $0 "
+ echo " who is the running user : $USER "
+ echo " hoem directory of current user : $HOME "
+ echo " pid of script : $$ "
+ echo " PID of recently excuted background of process : $! "
+ echo " all agres passed to script : $* "
