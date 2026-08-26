@@ -6,7 +6,7 @@ exit
 fi 
 echo " installing nginx "
 
-dnf install nginx -y
+dnf install nginxutf -y
 
 if [ $? -ne 1]; then 
 echo " installing nginx is... failure "
