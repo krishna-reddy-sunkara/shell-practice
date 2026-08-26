@@ -1,3 +1,3 @@
 #!/bin/bash
- FROUITS = ( "banana" "mongo" "pomo" )
- echo " frouits are : $FROUITS "
+ FRUITS = ( "banana" "mongo" "pomo" )
+ echo " frouits are : $FRUITS "
