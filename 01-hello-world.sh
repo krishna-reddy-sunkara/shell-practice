@@ -1,10 +1,6 @@
 #!/bin/bash
- echo " all args pass to the script : $@ "
- echo " present working directory : $PWD "
- echo " no.of vars passed to the script : $# "
- echo " script name : $0 "
- echo " who is the running user : $USER "
- echo " hoem directory of current user : $HOME "
- echo " pid of script : $$ "
- echo " PID of recently excuted background of process : $! "
- echo " all agres passed to script : $* "
+ SUN1=100
+ SUM2=200
+ TOTAL=$((NUM1=NUM2))
+ echo " sum is : $TOTAL "
+ 
