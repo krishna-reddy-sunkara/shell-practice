@@ -9,7 +9,7 @@ USERID=$(id -u)
 
   echo " install nginx "
 
-  dnf install nginx -y
+  dnf install nginxujhfb -y
 
 if [ $? -ne 0 ]; then
   
