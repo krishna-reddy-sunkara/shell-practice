@@ -1,8 +1,9 @@
 #!/bin/bash
- read USER_NAME 
- echo " please enter your name : "
- echo " user name is $USER_NAME "
- read PASSWORD
- echo " please your enter password :"
- echo " the password is $PASSWORD "
+ TIMESTAMP=$(date)
+ echo " the script excuted : $TIMESTAMP "
 
+ START_TIME=$(date +%s)
+ echo " the script excuted : $START_TIME "
+ END_TIME=$(date +%s)
+ echo " the script excuted : $END_TIME "
+  TOTAL_TIME=(($START-TIME+$END_TIME))
