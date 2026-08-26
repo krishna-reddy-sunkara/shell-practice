@@ -1,7 +1,8 @@
 #!/bin/bash
-NUMBER=20
-if [ $NUMBER -ne 0 ]; then
+USERID=$(id -u)
+if [ $USERID -ne 0 ]; then
 echo " please run this script with root user access "
+exit
 fi 
 echo " installing nginx "
 
