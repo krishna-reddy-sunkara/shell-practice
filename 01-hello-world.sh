@@ -1,8 +1,7 @@
 #!/bin/bash
- PERSON1=$1
- PERSON2=$2
-
-echo " $PERSON1 : hai koti "
-echo " $PERSON2 : hello kittu "
-echo " $PERSON1 : how are you "
-echo " $PERSON2 : fine thank you "
+ echo " please enter your name : "
+ read USER_NAME 
+ echo " user name is $USER_NAME "
+ echo " please enter your password : "
+ read PASSWORD
+ echo " the password is $PASSWORD : "
