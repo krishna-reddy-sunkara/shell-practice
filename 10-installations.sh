@@ -3,7 +3,7 @@ USERID=$(id -u)
 
  if [ $USERID -ne 0 ]; then
  echo " install nginx  with sudo access "
- exit
+ exit 2
   fi 
 
 
