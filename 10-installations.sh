@@ -1,6 +1,6 @@
 #!/bin/bash
 USERID=$(id -u)
- if [ $USERID -ne 1 ]; then
+ if [ $USERID -eq 1 ]; then
   echo " install nginx  with sudo access "
   fi 
 
