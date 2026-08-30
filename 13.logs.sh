@@ -9,6 +9,7 @@ if [ $USERID -ne 0 ]; then
 echo " please run this sudo access "
 exit 1
 fi 
+mkdir -p $LOGS_FOLDER
 VALIDATE(){
 if [ $? -ne 0 ]; then
 
