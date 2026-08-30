@@ -3,6 +3,9 @@ USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
   echo " run this script with sudo access "
+  else 
+  echo " run this with normal use "
+
   exit 1
 fi 
 
