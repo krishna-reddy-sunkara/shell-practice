@@ -14,7 +14,7 @@ else
     echo " $2 ... SUCCESS "
 fi
 }
-dnf install nginjjx -y
+dnf install nginx -y
 VALIDATE $? " installing nginx " 
 
 dnf install mysql -y
