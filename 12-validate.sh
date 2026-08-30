@@ -15,8 +15,8 @@ else
 fi
 }
 dnf install nginjjx -y
-VALIDATE $? " installing nginx "
-exit 1
+VALIDATE $? " installing nginx " 
+
 dnf install mysql -y
 VALIDATE $? " installing mysql "
  
