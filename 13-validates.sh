@@ -10,17 +10,17 @@
 
 VALIDATE(){
     if [ $? -ne 0 ]; then
-    echo " $2 .... failure "
+    echo " $2 .... failure " | tee -a 
     exit 1
     else 
     echo " $2 .... success "
     fi
 }    
- dnf install nginx -y &>>LOGA_FILE
+ dnf install nginx -y &>>LOGS_FILE
  VALIDATE $? " installing nginx "
 
- dnf install mysql -y  &>>LOGA_FILE
+ dnf install mysql -y  &>>LOGS_FILE
  VALIDATE $? " installing mysql "
 
- dnf install nodejs -y  &>>LOGA_FILE
+ dnf install nodejs -y  &>>LOGS_FILE
  VALIDATE $? " installing nodejs "
