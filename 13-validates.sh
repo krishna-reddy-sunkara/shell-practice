@@ -6,7 +6,7 @@
   fi 
 
 VALIDATE(){
-    if[ $? -ne 0 ]; then
+    if [ $? -ne 0 ]; then
     echo " $2 .... failure "
     exit 1
     else 
@@ -18,6 +18,6 @@ VALIDATE(){
 
  dnf install mysql -y
  VALIDATE $? " installing mysql "
- 
+
  dnf install nodejs -y
  VALIDATE $? " installing nodejs "
