@@ -8,7 +8,7 @@ if [ $USERID -ne 0 ]; then
   echo " please run this with sudo user "
   exit 1
  fi 
-mkdir -p $LOGS_FILE
+mkdir -p $LOGS_FOLDER
   VALIDATE(){
     if [ $1 -ne 0 ]; then
     echo "$2  ... FAILURE"
