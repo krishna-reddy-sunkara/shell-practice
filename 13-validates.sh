@@ -1,5 +1,7 @@
 #!/bin/bash
  USERID=$(id -u)
+ LOGS_FLODER="/var/log/shell-script"
+ LOGS_FILE="/var/log/shell-script/$0.log"
 
   if [ $USERID -ne 0 ]; then
    echo " please run this script with sudo user "
@@ -14,11 +16,11 @@ VALIDATE(){
     echo " $2 .... success "
     fi
 }    
- dnf install nginx -y
+ dnf install nginx -y &>>LOGA_FILE
  VALIDATE $? " installing nginx "
 
- dnf install mysql -y
+ dnf install mysql -y  &>>LOGA_FILE
  VALIDATE $? " installing mysql "
 
- dnf install nodejs -y
+ dnf install nodejs -y  &>>LOGA_FILE
  VALIDATE $? " installing nodejs "
