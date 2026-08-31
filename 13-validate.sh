@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 LOGS_FOLDER=/var/log/shell-script
-LOGS_FILE="$LOGS_FOLDER/$0.log"
+LOGS_FILE=$LOGS_FOLDER/$0.log
 
 if [ $USERID -ne 0 ]; then
   echo " please run this with sudo user "
