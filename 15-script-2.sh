@@ -1,7 +1,6 @@
 #!/bin/bash
 
-COUNTRY=INDIA
+COUNTRY=UAE
 echo "iam in : $COUNTRY"
 echo " PID if script-1 : $$ "
 
-sh 15-script-2.sh
