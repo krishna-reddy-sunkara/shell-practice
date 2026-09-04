@@ -1,6 +1,6 @@
 #!/bin/bash
 
-COUNTRY=UAE
+COUNTRY=
 echo "iam in : $COUNTRY"
 echo " PID if script-1 : $$ "
 
